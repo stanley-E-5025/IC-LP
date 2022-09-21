@@ -1,15 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
 
 .main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),
+    url("https://images.unsplash.com/19/waves.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2048&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main_about {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home_page_container {
   min-height: 100vh;
   flex: 1;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)),  url("https://images.unsplash.com/19/waves.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2048&q=80");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .footer {
@@ -21,18 +34,15 @@
   align-items: center;
 }
 
-.header {
-  top: 0;
-  position: sticky;
-  padding: 10px;
-  width: 100%;
-  background-color: #fff;
-  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
-}
-
-.navbar_text_log {
+.navbar_text_logo {
   font-family: "Merriweather", serif;
   font-size: 22px;
+}
+
+.navbar_text_logo_scroll {
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  color: #000;
 }
 
 .header_options_container {
@@ -48,10 +58,22 @@
   }
 }
 
+.header_options_container_scroll {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-family: "Merriweather", serif;
+  margin-top: 13px;
+
+  li {
+    margin: 10px;
+    color: #171717;
+  }
+}
+
 .nav_logo_container {
   a {
     color: #fff !important;
-
   }
 }
 
@@ -83,6 +105,39 @@
   }
 }
 
+.about_text_container {
+  width: 50%;
+}
+
+.about_image_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.about_first_img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border: 5px solid #fff;
+  margin-bottom: -300px;
+}
+
+.about_second_img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border: 5px solid #fff;
+
+}
+
+.first_div {
+}
+
+.second_div {
+}
 @media screen and (max-width: 991px) {
   .header_options_container {
     display: flex;

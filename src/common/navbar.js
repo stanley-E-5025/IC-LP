@@ -1,14 +1,42 @@
+import React, { useState, useEffect } from "react";
 import styles from "../../styles/Home.module.scss";
 
 export default function NavBar() {
-  // margin 6 , margin-top 13 px on navbar options font roboto  ,  brand name roboto
+  const [header, setHeader] = useState("header");
+
+  const listenScrollEvent = (event) => {
+    if (window.scrollY < 73) {
+      return setHeader("header");
+    } else if (window.scrollY > 100) {
+      return setHeader("header2");
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", listenScrollEvent);
+
+    return () => window.removeEventListener("scroll", listenScrollEvent);
+  }, []);
+
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light position-absolute top-0  d-flex w-100 bg-transparent">
+      <nav
+        className={`navbar navbar-expand-lg navbar-light position-fixed top-0  d-flex w-100 ${
+          header === "header2" ? "bg-light" : "bg-transparent text-dark"
+        }`}
+      >
         <div className="container-fluid">
           <div className={styles.nav_logo_container}>
             <a className="navbar-brand" href="#">
-             <span className={styles.navbar_text_log}> Integral Consulting</span>
+              <span
+                className={
+                  header === "header2"
+                    ? styles.navbar_text_logo_scroll
+                    : styles.navbar_text_logo
+                }
+              >
+                Integral Consulting
+              </span>
             </a>
           </div>
 
@@ -27,7 +55,13 @@ export default function NavBar() {
             className="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul className={styles.header_options_container}>
+            <ul
+              className={
+                header === "header2"
+                  ? styles.header_options_container_scroll
+                  : styles.header_options_container
+              }
+            >
               <li>
                 <a href="#">Home</a>
               </li>
