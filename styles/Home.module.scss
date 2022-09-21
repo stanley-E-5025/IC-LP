@@ -10,21 +10,6 @@
   background-image: url("https://images.unsplash.com/19/waves.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2048&q=80");
   background-repeat: no-repeat;
   background-size: cover;
-
-  p {
-    color: rgb(255, 255, 255);
-    font-size: 70px;
-    text-align: center;
-    font-family: "Merriweather", serif;
-  }
-
-  div {
-    color: #fff;
-    padding: 10px;
-    font-family: "Merriweather", serif bold;
-    border: 3px solid #fff;
-    font-weight: bold;
-  }
 }
 
 .footer {
@@ -45,21 +30,49 @@
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
 }
 
+.navbar_text_log {
+  font-family: Roboto;
+  font-size: 25px;
+}
+
 .header_options_container {
-  ul {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-  }
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  font-family: Roboto;
+  margin-top: 13px;
 
   li {
-    margin: 5px;
+    margin: 10px;
   }
 }
 
 .nav_logo_container {
   a {
     color: #fff !important;
+
+  }
+}
+
+.home_page_intro {
+  color: rgb(255, 255, 255);
+  width: 100%;
+
+  p {
+    text-align: left;
+    padding-left: 30px;
+    font-size: 60px;
+    font-family: "Merriweather", serif;
+  }
+}
+.home_page_learn_more {
+  p {
+    color: #fff;
+    padding: 10px;
+    font-family: "Merriweather", serif bold;
+    border: 3px solid #fff;
+    font-weight: bold;
+    margin-left:300px;
   }
 }
 
@@ -67,6 +80,19 @@
   .header_options_container {
     li {
       margin: 5px;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header_options_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+
+    li {
+      border-bottom: 0.5px solid #171717;
     }
   }
 }

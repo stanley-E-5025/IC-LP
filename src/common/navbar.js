@@ -1,17 +1,14 @@
 import styles from "../../styles/Home.module.scss";
 
-
 export default function NavBar() {
-
-
-  // margin 6 , margin-top 13 px on navbar options font roboto  ,  brand name roboto 
+  // margin 6 , margin-top 13 px on navbar options font roboto  ,  brand name roboto
   return (
     <>
       <nav className="navbar navbar-expand-lg navbar-light position-absolute top-0  d-flex w-100 bg-transparent">
         <div className="container-fluid">
           <div className={styles.nav_logo_container}>
             <a className="navbar-brand" href="#">
-              Integral Consulting
+             <span className={styles.navbar_text_log}> Integral Consulting</span>
             </a>
           </div>
 
@@ -30,36 +27,24 @@ export default function NavBar() {
             className="collapse navbar-collapse justify-content-end"
             id="navbarNav"
           >
-            <ul className="navbar-nav">
-            <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Home
-                </a>
+            <ul className={styles.header_options_container}>
+              <li>
+                <a href="#">Home</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  About
-                </a>
+              <li>
+                <a href="#">About</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Services
-                </a>
+              <li>
+                <a href="#">Services</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Testimonials
-                </a>
+              <li>
+                <a href="#">Testimonials</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Contact
-                </a>
+              <li>
+                <a href="#">Contact</a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
-                  Book a Consultation
-                </a>
+              <li>
+                <a href="#">Book a Consultation</a>
               </li>
             </ul>
           </div>
