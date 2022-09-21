@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap");
+
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/19/waves.JPG?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2048&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  p {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    text-align: center;
+    font-family: "Merriweather", serif;
+  }
+
+  div {
+    color: #fff;
+    padding: 10px;
+    font-family: "Merriweather", serif bold;
+    border: 3px solid #fff;
+    font-weight: bold;
+  }
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  top: 0;
+  position: sticky;
+  padding: 10px;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.header_options_container {
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+  }
+
+  li {
+    margin: 5px;
+  }
+}
+
+.nav_logo_container {
+  a {
+    color: #fff !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header_options_container {
+    li {
+      margin: 5px;
+    }
+  }
+}
