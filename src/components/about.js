@@ -4,15 +4,15 @@ export default function About() {
   return (
     <main className={styles.main_about}>
       <div className={styles.about_image_container}>
-        <div className={styles.second_div}>
-          <img src="/face.jpg" alt="me" className={styles.about_first_img} />
-        </div>
         <div className={styles.first_div}>
           <img
             src="https://images.unsplash.com/photo-1446038202205-1c96430dbdab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2938&q=80"
             alt="landscape"
             className={styles.about_second_img}
           />
+        </div>
+        <div className={styles.second_div}>
+          <img src="/face.jpg" alt="me" className={styles.about_first_img} />
         </div>
       </div>
 
