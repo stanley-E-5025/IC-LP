@@ -9,7 +9,7 @@ export default function Testimonials() {
 
       <div className={styles.testimonials_cards_container}>
         <div className={styles.card_container_testimonials}>
-          <h2>"</h2>
+          <h2>&ldquo;</h2>
           <p>
             Lorem ipsum es el texto que se usa habitualmente en diseño gráfico
             en demostraciones de tipografías o de borradores de diseño para
@@ -19,7 +19,7 @@ export default function Testimonials() {
         </div>
 
         <div className={styles.card_container_testimonials}>
-          <h2>"</h2>
+          <h2>&ldquo;</h2>
           <p>
             Lorem ipsum es el texto que se usa habitualmente en diseño gráfico
             en demostraciones de tipografías o de borradores de diseño para
@@ -29,7 +29,7 @@ export default function Testimonials() {
         </div>
 
         <div className={styles.card_container_testimonials}>
-          <h2>"</h2>
+          <h2>&ldquo;</h2>
           <p>
             Lorem ipsum es el texto que se usa habitualmente en diseño gráfico
             en demostraciones de tipografías o de borradores de diseño para
