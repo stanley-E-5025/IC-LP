@@ -19,7 +19,7 @@ export default function About() {
       <div className={styles.about_text_container}>
         <h1>Welcome! My name is Ana!</h1>
         <p>
-          I'm Nicaraguan and have been living in the Tola area for over 12
+          I&apos;m Nicaraguan and have been living in the Tola area for over 12
           years. <br />I have a Bachelor0s Degree in Business Administration and
           Postgrad Degree
           <br /> in Corporate Law. I am a passionate advocate for community
@@ -34,7 +34,7 @@ export default function About() {
           property <br />
           owners in the Tola coastal area of Nicaragua since then. I provide; as
           my clients <br />
-          said "Peace of mind" to all their business and legal needs in
+          said &ldquo;Peace of mind&ldquo; to all their business and legal needs in
           Nicaragua.
           <br /> My mission is to provide you services that strategy yourself to
           an effective use of <br />
