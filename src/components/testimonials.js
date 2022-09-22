@@ -4,7 +4,7 @@ export default function Testimonials() {
   return (
     <main id="testimonials" className={styles.main_testimonials}>
       <div className={styles.testimonials_title_container}>
-        <h1>Testimonials</h1>
+        <h3>What my clients say about me</h3>
       </div>
 
       <div className={styles.testimonials_cards_container}>

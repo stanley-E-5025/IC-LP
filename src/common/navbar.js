@@ -75,10 +75,10 @@ export default function NavBar() {
                 <a href="#testimonials">Testimonials</a>
               </li>
               <li>
-                <a href="#">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
               <li>
-                <a href="#">Book a Consultation</a>
+                <a href="#contact">Book a Consultation</a>
               </li>
             </ul>
           </div>
