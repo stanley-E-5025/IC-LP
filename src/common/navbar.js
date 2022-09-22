@@ -63,16 +63,16 @@ export default function NavBar() {
               }
             >
               <li>
-                <a href="#">Home</a>
+                <a href="#home">Home</a>
               </li>
               <li>
-                <a href="#">About</a>
+                <a href="#about">About</a>
               </li>
               <li>
-                <a href="#">Services</a>
+                <a href="#services">Services</a>
               </li>
               <li>
-                <a href="#">Testimonials</a>
+                <a href="#testimonials">Testimonials</a>
               </li>
               <li>
                 <a href="#">Contact</a>

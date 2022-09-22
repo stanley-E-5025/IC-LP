@@ -16,6 +16,13 @@
 .main_services {
   min-height: 100vh;
   background-color: rgb(252, 252, 252);
+  padding-top: 100px;
+}
+
+.main_testimonials {
+  min-height: 100vh;
+  background-color: #fff;
+  padding-top: 100px;
 }
 
 .home_page_container {
@@ -106,6 +113,12 @@
   p {
     padding: 5px;
   }
+
+  span{
+    background-color: #667b53;
+    color: #fff;
+    padding: 13px;
+  }
 }
 
 .about_image_container {
@@ -150,7 +163,7 @@
   width: 270px;
   text-align: center;
 
-  ul{
+  ul {
     padding: 0px;
   }
 
@@ -172,6 +185,49 @@
   }
 }
 
+.testimonials_title_container {
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+
+.testimonials_cards_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.card_container_testimonials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+  height: 350px;
+  width: 350px;
+
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+  h2 {
+    font-weight: bolder;
+    color: rgb(243, 243, 9);
+  }
+  img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    object-fit: cover;
+    padding: 10px;
+  }
+}
+
+.testimonial_title_container {
+  width: 100%;
+  text-align: center;
+  padding: 50px;
+}
+
 @media screen and (max-width: 600px) {
   .header_options_container {
     li {
@@ -181,6 +237,17 @@
 }
 
 @media screen and (max-width: 991px) {
+  .card_container_testimonials {
+    margin: 50px;
+  }
+
+  .testimonials_cards_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
   .header_options_container {
     display: flex;
     justify-content: center;

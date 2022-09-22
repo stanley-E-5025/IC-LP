@@ -2,7 +2,7 @@ import styles from "../../styles/Home.module.scss";
 
 export default function About() {
   return (
-    <main className={styles.main_about}>
+    <main id="about" className={styles.main_about}>
       <div className={styles.about_image_container}>
         <div className={styles.first_div}>
           <img
@@ -39,8 +39,12 @@ export default function About() {
           <br /> My mission is to provide you services that strategy yourself to
           an effective use of <br />
           your resources so you are allow to focus on your goal living in
-          Nicaragua.{" "}
+          Nicaragua.
         </p>
+
+        <span>
+          <a href="#services">My services</a>
+        </span>
       </div>
     </main>
   );

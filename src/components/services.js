@@ -2,7 +2,7 @@ import styles from "../../styles/Home.module.scss";
 
 export default function Services() {
   return (
-    <main className={styles.main_services}>
+    <main id="services" className={styles.main_services}>
       <div className={styles.services_title_container}>
         <h1>Services</h1>
       </div>
