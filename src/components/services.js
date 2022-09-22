@@ -4,12 +4,12 @@ export default function Services() {
   return (
     <main className={styles.main_services}>
       <div className={styles.services_title_container}>
-        <h1>Company Service</h1>
+        <h1>Services</h1>
       </div>
 
       <div className={styles.services_cards_container}>
         <div className={styles.card_container}>
-          <img alt="img" src={"/legal.jpg"} />
+          <img alt="img" src={"/self1.jpg"} />
           <div className={styles.services_card}>
             <h3>Administrative</h3>
             <ul>
@@ -24,7 +24,7 @@ export default function Services() {
         </div>
 
         <div className={styles.card_container}>
-          <img alt="img" src={"/admin.jpg"} />
+          <img alt="img" src={"/legal2.jpg"} />
           <div className={styles.services_card}>
             <h3>Legal</h3>
 
@@ -42,7 +42,7 @@ export default function Services() {
         </div>
 
         <div className={styles.card_container}>
-          <img alt="img" src={"/self1.jpg"} />
+          <img alt="img" src={"/admin.jpg"} />
           <div className={styles.services_card}>
             <h3>Personal Services</h3>
 

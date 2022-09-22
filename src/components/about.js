@@ -20,20 +20,26 @@ export default function About() {
         <h1>Welcome! My name is Ana!</h1>
         <p>
           I’m Nicaraguan and have been living in the Tola area for over 12
-          years. I have a Bachelor0s Degree in Business Administration and
-          Postgrad Degree in Corporate Law. I am a passionate advocate for
-          community programs and empowering others to thrive.
+          years. <br />I have a Bachelor0s Degree in Business Administration and
+          Postgrad Degree
+          <br /> in Corporate Law. I am a passionate advocate for community
+          programs and <br />
+          empowering others to thrive.
         </p>
-
-        <strong>How Can I help you? </strong>
-
+        <p>
+          <strong>How Can I help you?</strong>
+        </p>
         <p>
           I started Integral Consulting in 2016, assisting entrepreneurs and
-          property owners in the Tola coastal area of Nicaragua since then. I
-          provide; as my clients said ‘‘Peace of mind’’ to all their business
-          and legal needs in Nicaragua. My mission is to provide you services
-          that strategy yourself to an effective use of your resources so you
-          are allow to focus on your goal living in Nicaragua.{" "}
+          property <br />
+          owners in the Tola coastal area of Nicaragua since then. I provide; as
+          my clients <br />
+          said ‘‘Peace of mind’’ to all their business and legal needs in
+          Nicaragua.
+          <br /> My mission is to provide you services that strategy yourself to
+          an effective use of <br />
+          your resources so you are allow to focus on your goal living in
+          Nicaragua.{" "}
         </p>
       </div>
     </main>

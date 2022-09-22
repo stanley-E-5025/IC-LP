@@ -4,7 +4,7 @@ import styles from "../../styles/Home.module.scss";
 export default function NavBar() {
   const [header, setHeader] = useState("header");
 
-  const listenScrollEvent = (event) => {
+  const listenScrollEvent = () => {
     if (window.scrollY < 73) {
       return setHeader("header");
     } else if (window.scrollY > 100) {
