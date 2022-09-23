@@ -31,7 +31,7 @@ export default function Contact() {
             </span>
             <p>
               Use the contoct form to send me
-              <br /> a messoge. I'll get back to you
+              <br /> a messoge. I&apos;ll get back to you
               <br />
               within 24 business hours.
             </p>
