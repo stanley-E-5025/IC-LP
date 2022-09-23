@@ -76,10 +76,7 @@ export default function NavBar() {
               </li>
               <li>
                 <a href="#contact">Contact</a>
-              </li>
-              <li>
-                <a href="#contact">Book a Consultation</a>
-              </li>
+              </li> 
             </ul>
           </div>
         </div>
