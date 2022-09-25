@@ -11,9 +11,23 @@ export default function Testimonials() {
         <div className={styles.card_container_testimonials}>
           <h2>&ldquo;</h2>
           <p>
-            Lorem ipsum es el texto que se usa habitualmente en diseño gráfico
-            en demostraciones de tipografías o de borradores de diseño para
-            probar el diseño visual antes de insertar el texto final.
+            I hired Ana to help me apply for Nicaraguan residency. She made the
+            process easy,her understanding and knowledge of the system was
+            pivotal in making the process as painless as possible.She knew every
+            step of the way and her excellent communication skills proved
+            invaluable. Ana far exceeded all my expectations. Kevin Malone
+          </p>
+          <img alt="img" src={"/user1.jpg"} />
+        </div>
+
+        <div className={styles.card_container_testimonials}>
+          <h2>&ldquo;</h2>
+          <p>
+            I hired Ana to help me apply for Nicaraguan residency. She made the
+            process easy,her understanding and knowledge of the system was
+            pivotal in making the process as painless as possible.She knew every
+            step of the way and her excellent communication skills proved
+            invaluable. Ana far exceeded all my expectations. Kevin Malone
           </p>
           <img alt="img" src={"/self1.jpg"} />
         </div>
@@ -21,19 +35,11 @@ export default function Testimonials() {
         <div className={styles.card_container_testimonials}>
           <h2>&ldquo;</h2>
           <p>
-            Lorem ipsum es el texto que se usa habitualmente en diseño gráfico
-            en demostraciones de tipografías o de borradores de diseño para
-            probar el diseño visual antes de insertar el texto final.
-          </p>
-          <img alt="img" src={"/self1.jpg"} />
-        </div>
-
-        <div className={styles.card_container_testimonials}>
-          <h2>&ldquo;</h2>
-          <p>
-            Lorem ipsum es el texto que se usa habitualmente en diseño gráfico
-            en demostraciones de tipografías o de borradores de diseño para
-            probar el diseño visual antes de insertar el texto final.
+            I hired Ana to help me apply for Nicaraguan residency. She made the
+            process easy,her understanding and knowledge of the system was
+            pivotal in making the process as painless as possible.She knew every
+            step of the way and her excellent communication skills proved
+            invaluable. Ana far exceeded all my expectations. Kevin Malone
           </p>
           <img alt="img" src={"/self1.jpg"} />
         </div>

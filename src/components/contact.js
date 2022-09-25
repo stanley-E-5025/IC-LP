@@ -43,15 +43,19 @@ export default function Contact() {
             </span>
 
             <div className={styles.contact_icons}>
-              <i className="fa-brands fa-whatsapp"></i>
-              <i className="fa-brands fa-instagram"></i>
+              <a href="https://api.whatsapp.com/send?phone=50588101491&text=">
+                <i className="fa-brands fa-whatsapp"></i>
+              </a>
+              <a>
+                <i className="fa-brands fa-instagram"></i>
+              </a>
             </div>
             <span>
               <strong>BY FORM</strong>
             </span>
             <p>
-              Use the contoct form to send me
-              <br /> a messoge. I&apos;ll get back to you
+              Use the contact form to send me
+              <br /> a message. I&apos;ll get back to you
               <br />
               within 24 business hours.
             </p>
@@ -59,7 +63,7 @@ export default function Contact() {
             <span>
               <strong>TIME</strong>
             </span>
-            <p>Central Standard Time CST</p>
+            <p>Mon-Fri, 8am-4pm GMT-6</p>
           </div>
 
           <div className={styles.contact_form_container}>
