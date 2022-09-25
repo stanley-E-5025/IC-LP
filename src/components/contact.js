@@ -63,7 +63,7 @@ export default function Contact() {
             <span className={styles.custom_span}>
               <strong>HOURS</strong>
             </span>
-            <p>Mon-Fri, 8am-4pm GMT-6</p>
+            <p>Mon-Fri, 8am-4pm</p>
           </div>
 
           <div className={styles.contact_form_container}>

@@ -32,9 +32,9 @@ export default function About() {
         <p>
           I started Integral Consulting in 2016, assisting entrepreneurs and
           property <br />
-          owners in the Tola coastal area of Nicaragua since then. I provide as
+          owners in the Tola coastal area of Nicaragua since. I provide as
           my clients <br />
-          said; &ldquo;Peace of mind&ldquo; to all their business and legal needs
+          say; &ldquo;Peace of mind&ldquo; to all their business and legal needs
           in Nicaragua.
           <br /> My mission is to provide you services that strategy yourself to
           an effective use of <br />
