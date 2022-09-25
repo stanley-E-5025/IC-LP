@@ -61,7 +61,7 @@ export default function Contact() {
             </p>
 
             <span>
-              <strong>TIME</strong>
+              <strong>HOURS</strong>
             </span>
             <p>Mon-Fri, 8am-4pm GMT-6</p>
           </div>
