@@ -5,7 +5,7 @@ import styles from "../../styles/Home.module.scss";
 
 export default function Contact() {
   const [form, setForm] = useState({
-    email: "",
+    email: "integralconsultingnica@gmail.com",
     subject: "",
     message: "",
     name: "",
@@ -77,20 +77,12 @@ export default function Contact() {
               />
               <input
                 onChange={handleInputChange}
-                placeholder="Email"
-                name="email"
-                type="email"
-                maxLength={100}
-                required={true}
-              />
-              <input
-                onChange={handleInputChange}
                 placeholder="subject"
                 name="subject"
                 maxLength={100}
                 required={true}
               />
-              <input
+              <textarea
                 onChange={handleInputChange}
                 placeholder="message"
                 name="message"

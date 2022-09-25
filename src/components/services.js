@@ -11,7 +11,9 @@ export default function Services() {
         <div className={styles.card_container}>
           <img alt="img" src={"/self1.jpg"} />
           <div className={styles.services_card}>
-            <h3>Business</h3>
+            <h3>
+              <a href="#contact">Business</a>
+            </h3>
             <ul>
               <li> Permits and licenses</li>
               <li> Payroll assistance</li>
@@ -26,7 +28,9 @@ export default function Services() {
         <div className={styles.card_container}>
           <img alt="img" src={"/legal2.jpg"} />
           <div className={styles.services_card}>
-            <h3>Legal</h3>
+            <h3>
+              <a href="#contact">Legal</a>
+            </h3>
 
             <ul>
               <li> Property title research</li>
@@ -44,7 +48,9 @@ export default function Services() {
         <div className={styles.card_container}>
           <img alt="img" src={"/admin.jpg"} />
           <div className={styles.services_card}>
-            <h3>Personal</h3>
+            <h3>
+              <a href="#contact">Personal</a>
+            </h3>
 
             <ul>
               <li>Marriage certificate</li>
@@ -58,7 +64,9 @@ export default function Services() {
         <div className={styles.card_container}>
           <img alt="img" src={"/migra.jpg"} />
           <div className={styles.services_card}>
-            <h3>Immigration</h3>
+            <h3>
+              <a href="#contact">Immigration</a>
+            </h3>
             <ul>
               <li>Residency Applications</li>
               <li>Investors certificate applications</li>

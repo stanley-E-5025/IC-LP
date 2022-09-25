@@ -278,7 +278,6 @@
   margin-top: 29px !important;
 }
 
-
 .contact_form_container {
   width: 40%;
 }
@@ -287,6 +286,15 @@
   display: flex;
   flex-direction: column;
   input {
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    background-color: #eaeaea;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  textarea {
     margin-top: 10px;
     outline: none;
     border: none;
@@ -313,15 +321,125 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .header_options_container {
-    li {
-      margin: 5px;
-    }
-  }
-}
 
 @media screen and (max-width: 991px) {
+
+
+  .header_options_container_scroll{
+
+    flex-direction: column;
+
+  }
+  .home_page_intro {
+    p {
+      font-size: 45px;
+    }
+  }
+  .card_container_testimonials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5px;
+    height: auto;
+    width: 100%;
+
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    h2 {
+      font-weight: bolder;
+      color: rgb(243, 243, 9);
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 100px;
+      object-fit: cover;
+      padding: 10px;
+    }
+  }
+
+  .contact_form_container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .contact_info_contaner {
+    background-color: #eef1ffa8;
+    padding: 15px;
+    margin-top: 0px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    p {
+      padding-top: 5px;
+    }
+
+    span {
+      margin-top: 20px;
+    }
+  }
+
+  .contact_content_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .about_image_container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+
+  .about_text_container {
+    width: 100%;
+    padding: 10px;
+  
+    p {
+      padding: 5px;
+    }
+  
+    span {
+      background-color: #667b53;
+      color: #fff;
+      padding: 13px;
+    }
+  }
+  
+  .about_first_img {
+    width: 230px;
+    height: 230px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    margin-right: -20px;
+  }
+
+  .about_second_img {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border: 5px solid #fff;
+    margin-bottom: -500px;
+    margin-left: -150px;
+  }
+
+  .main_about {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
   .card_container_testimonials {
     margin: 50px;
   }
@@ -336,11 +454,14 @@
   .header_options_container {
     display: flex;
     justify-content: center;
+    align-items: baseline;
     flex-direction: column;
     background-color: #fff;
+  
 
     li {
       border-bottom: 0.5px solid #171717;
+      color: #000;
     }
   }
 

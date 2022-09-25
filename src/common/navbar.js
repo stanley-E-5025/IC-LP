@@ -80,7 +80,7 @@ export default function NavBar() {
 
               <li>
                 <a href="https://calendly.com/integralconsultingnica/30-minute-consultation">
-                  Book a consultation
+                  Book a Consultation
                 </a>
               </li>
             </ul>
