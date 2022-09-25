@@ -321,14 +321,27 @@
   }
 }
 
-
+.footer_map {
+  width: 100%;
+  height: 100%;
+}
 @media screen and (max-width: 991px) {
+  .services_card {
+    min-height: 0px;
+    width: 270px;
+    text-align: center;
 
+    ul {
+      padding: 0px;
+    }
 
-  .header_options_container_scroll{
+    li {
+      list-style-type: none;
+    }
+  }
 
+  .header_options_container_scroll {
     flex-direction: column;
-
   }
   .home_page_intro {
     p {
@@ -404,18 +417,18 @@
   .about_text_container {
     width: 100%;
     padding: 10px;
-  
+
     p {
       padding: 5px;
     }
-  
+
     span {
       background-color: #667b53;
       color: #fff;
       padding: 13px;
     }
   }
-  
+
   .about_first_img {
     width: 230px;
     height: 230px;
@@ -457,7 +470,6 @@
     align-items: baseline;
     flex-direction: column;
     background-color: #fff;
-  
 
     li {
       border-bottom: 0.5px solid #171717;

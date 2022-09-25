@@ -13,9 +13,18 @@ export default function Home() {
       <HomePage />
       <About />
       <Services />
-      <Testimonials/>
-      <Contact/>
-      <footer className={styles.footer}></footer>
+      <Testimonials />
+      <Contact />
+      <footer className={styles.footer}>
+        <div className={styles.footer_map}>
+          <iframe
+            className="gmap_iframe"
+            width="100%"
+            scrolling="no"
+            src="https://maps.google.com/maps?width=620&amp;height=400&amp;hl=en&amp;q=11.477746,-86.128805&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          ></iframe>
+        </div>
+      </footer>
     </div>
   );
 }

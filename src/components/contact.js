@@ -37,7 +37,11 @@ export default function Contact() {
             <span className={styles.custom_span2}>
               <strong>BY EMAIL</strong>
             </span>
-            <p>integralconsultingnica@gmail.com</p>
+            <p>
+              <a href="mailto:integralconsultingnica@gmail.com">
+                integralconsultingnica@gmail.com
+              </a>
+            </p>
             <span>
               <strong>ON SOCIAL</strong>
             </span>
@@ -46,7 +50,7 @@ export default function Contact() {
               <a href="https://api.whatsapp.com/send?phone=50588101491&text=">
                 <i className="fa-brands fa-whatsapp"></i>
               </a>
-              <a>
+              <a href="https://www.instagram.com/integralconsultingnica/">
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </div>
