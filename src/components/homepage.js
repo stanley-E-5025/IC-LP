@@ -6,7 +6,7 @@ export default function HomePage() {
       <div className={styles.home_page_container}>
         <div className={styles.home_page_intro}>
           <p>
-            Business and Legal Consulting
+            Business and Legal Solutions
             <br />
             for Tola coast investors
           </p>

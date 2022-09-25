@@ -16,7 +16,7 @@
 .main_services {
   min-height: 100vh;
   background-color: rgb(252, 252, 252);
-  padding-top: 100px;
+  padding-top: 60px;
 }
 
 .main_testimonials {
@@ -27,6 +27,7 @@
 .main_contact {
   min-height: 110vh;
   padding-top: 90px;
+  padding-bottom: 80px;
 }
 
 .home_page_container {
@@ -181,11 +182,10 @@
   align-items: center;
   flex-direction: column;
   img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 100px;
     object-fit: cover;
-    padding: 10px;
   }
 }
 
@@ -253,7 +253,7 @@
 }
 
 .contact_info_contaner {
-  background-color: #eef1ff;
+  background-color: #eef1ffa8;
   padding: 20px;
   margin-top: -100px;
   height: 100%;

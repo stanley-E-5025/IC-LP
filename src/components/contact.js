@@ -1,11 +1,31 @@
+import { useState } from "react";
+import Router from "next/router";
+
 import styles from "../../styles/Home.module.scss";
 
 export default function Contact() {
-  function HandleSubmit(e) {
+  const [form, setForm] = useState({
+    email: "",
+    subject: "",
+    message: "",
+    name: "",
+  });
+
+  const handleInputChange = ({ target }) => {
+    setForm({
+      ...form,
+      [target.name]: target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
     e.preventDefault();
 
-    alert("?");
-  }
+    Router.push(
+      `mailto:${form.email}?subject=${form.subject}&body=${form.message}`
+    );
+  };
+
   return (
     <main id="contact" className={styles.main_contact}>
       <div className={styles.contact_container}>
@@ -43,12 +63,38 @@ export default function Contact() {
           </div>
 
           <div className={styles.contact_form_container}>
-            <form className={styles.contact_form}>
-              <input placeholder="your name" />
-              <input placeholder="Email" />
-              <input placeholder="subject" />
-              <input placeholder="message" />
-              <button onClick={HandleSubmit}>send</button>
+            <form onSubmit={handleSubmit} className={styles.contact_form}>
+              <input
+                onChange={handleInputChange}
+                placeholder="your name"
+                name="name"
+                maxLength={50}
+                required={true}
+              />
+              <input
+                onChange={handleInputChange}
+                placeholder="Email"
+                name="email"
+                type="email"
+                maxLength={100}
+                required={true}
+              />
+              <input
+                onChange={handleInputChange}
+                placeholder="subject"
+                name="subject"
+                maxLength={100}
+                required={true}
+              />
+              <input
+                onChange={handleInputChange}
+                placeholder="message"
+                name="message"
+                maxLength={500}
+                required={true}
+              />
+
+              <button>Send</button>
             </form>
           </div>
         </div>

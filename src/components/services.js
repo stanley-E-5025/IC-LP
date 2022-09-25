@@ -44,7 +44,7 @@ export default function Services() {
         <div className={styles.card_container}>
           <img alt="img" src={"/admin.jpg"} />
           <div className={styles.services_card}>
-            <h3>Personal Services</h3>
+            <h3>Personal</h3>
 
             <ul>
               <li>Marriage certificate</li>
@@ -61,6 +61,9 @@ export default function Services() {
             <h3>Immigration</h3>
             <ul>
               <li>Residency Applications</li>
+              <li>Investors certificate applications</li>
+              <li>Form filling</li>
+              <li>Notarial certification of documents</li>
             </ul>
           </div>
         </div>
