@@ -20,7 +20,7 @@ export default function About() {
         <h1>Welcome! My name is Ana.</h1>
         <p>
           I&apos;m Nicaraguan and have been living in the Tola area for over 12
-          years. <br />I have a Bachelor's Degree in Business Administration and
+          years. <br />I have a Bachelor&apos;s Degree in Business Administration and
           Postgrad Degree
           <br /> in Corporate Law. I am a passionate advocate for community
           programs and <br />
