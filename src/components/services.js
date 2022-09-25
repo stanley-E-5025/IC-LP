@@ -11,9 +11,9 @@ export default function Services() {
         <div className={styles.card_container}>
           <img alt="img" src={"/self1.jpg"} />
           <div className={styles.services_card}>
-            <h3>Administrative</h3>
+            <h3>Business</h3>
             <ul>
-              <li>Business Permits and licenses</li>
+              <li> Permits and licenses</li>
               <li> Payroll assistance</li>
               <li>DGI and INSS filings</li>
               <li>Property taxes</li>

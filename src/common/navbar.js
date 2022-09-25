@@ -76,7 +76,13 @@ export default function NavBar() {
               </li>
               <li>
                 <a href="#contact">Contact</a>
-              </li> 
+              </li>
+
+              <li>
+                <a href="https://calendly.com/integralconsultingnica/30-minute-consultation">
+                  Book a consultation
+                </a>
+              </li>
             </ul>
           </div>
         </div>
