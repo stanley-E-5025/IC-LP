@@ -34,7 +34,7 @@ export default function Contact() {
         <div className={styles.contact_content_container}>
           <div className={styles.contact_info_contaner}>
             <h1>Contact Ana</h1>
-            <span>
+            <span className={styles.custom_span2}>
               <strong>BY EMAIL</strong>
             </span>
             <p>integralconsultingnica@gmail.com</p>
@@ -60,7 +60,7 @@ export default function Contact() {
               within 24 business hours.
             </p>
 
-            <span>
+            <span className={styles.custom_span}>
               <strong>HOURS</strong>
             </span>
             <p>Mon-Fri, 8am-4pm GMT-6</p>
