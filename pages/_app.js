@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="description"
-          content="Business and legal consoulting for the tola coast investors 👩🏽‍💼"
+          content="Business and Legal Consulting for the tola coast investors 👩🏽‍💼"
         />
         <link rel="icon" href="/favicon.ico" />
         <link

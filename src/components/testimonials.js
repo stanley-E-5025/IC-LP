@@ -23,16 +23,18 @@ export default function Testimonials() {
         <div className={styles.card_container_testimonials}>
           <h2>&ldquo;</h2>
           <p>
-          Ana has helped me with every step of my business - with the land purchase, registration, business permits, setting up payroll, INSS - everything!  She makes owning and operating a business in Nicaragua so much easier.  I recommend her to everyone I meet who is buying land or starting a business in Nicaragua. Ali Maitland. Suyo Cabañas 
+            Ana has helped me with every step of my business - with the land
+            purchase, registration, business permits, setting up payroll, INSS -
+            everything! She makes owning and operating a business in Nicaragua
+            so much easier. I recommend her to everyone I meet who is buying
+            land or starting a business in Nicaragua. Ali Maitland. Ali Kearney
           </p>
           <img alt="img" src={"/user2.png"} />
         </div>
 
         <div className={styles.card_container_testimonials}>
           <h2>&ldquo;</h2>
-          <p>
-             
-          </p>
+          <p></p>
           <img alt="img" src={"/self1.jpg"} />
         </div>
       </div>
