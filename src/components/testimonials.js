@@ -27,7 +27,7 @@ export default function Testimonials() {
             purchase, registration, business permits, setting up payroll, INSS -
             everything! She makes owning and operating a business in Nicaragua
             so much easier. I recommend her to everyone I meet who is buying
-            land or starting a business in Nicaragua. Ali Maitland. Ali Kearney
+            land or starting a business in Nicaragua. Ali Kearney. Cabañas Suyo
           </p>
           <img alt="img" src={"/user2.png"} />
         </div>
